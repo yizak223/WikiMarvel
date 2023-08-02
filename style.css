@@ -11,11 +11,19 @@ nav{
     width: 90vw;
     height: 5vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    row-gap: 10vh;
     align-items: center;
 }
 nav a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    text-shadow:inset 10px 10px 10px gray;
+    font-size: 2vw;
+}
+nav a:hover{
+    color: blue;
+}
+.active{
+    background-color: #5116e8;
+    border-radius: 15%;
 }
