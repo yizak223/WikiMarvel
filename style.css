@@ -11,6 +11,7 @@ nav{
     width: 90vw;
     height: 5vh;
     display: flex;
+    gap: 2vh;
     justify-content: center;
     row-gap: 10vh;
     align-items: center;
