@@ -1,0 +1,24 @@
+main{
+    background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    
+    font-weight: 600;
+    color: #000;
+    text-shadow: 15px 15px 20px red;
+}
+.paragraph{
+    background-color: rgba(147, 240, 240, 0.593);
+    color: #000;
+    width: 50%;
+}
+main p{
+    text-align: center
+;
+}

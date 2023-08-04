@@ -169,7 +169,6 @@ nav a:hover{
   }
   
   @media screen and (min-width:600px){
-  
     nav{
         height: 10vh;
      }
@@ -180,6 +179,5 @@ nav a:hover{
      footer{
          height: 20vh;
      } 
-    
   }
   
