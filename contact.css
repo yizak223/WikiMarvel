@@ -1,0 +1,31 @@
+body{
+    grid-template-rows: 20vh 20vh 20vh 30vh 20vh;
+}
+main{
+    height: 70vh;
+    background-size: 100% 70vh;
+}
+h1{
+    color: #f4aaaa;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+
+}
+.container-img-and-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+img{
+    width: 50vw;
+    height: 60vh;
+}
+input, textarea{
+    background-color: #202020;
+}
+label{
+    color: #ffffff;
+}
