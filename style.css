@@ -10,7 +10,7 @@ body{
     border: #393939 solid;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
     grid-template-areas: 
     'header header header header'
     'main main main main'
@@ -28,15 +28,13 @@ main{
     width: 100vw;
     grid-area: main;
     /* border: #393939 solid; */
-    background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+   
 }
 footer{
     display: grid;
     grid-template-columns: 33% 33% 33% ;
     grid-template-rows: 80% 20%;
-    grid-template-areas: 'my-contact my-social-media my-project ' 
+    grid-template-areas: 'my-contact my-social-media my-project' 
     'rights rights rights';
     /* height: 20vh; */
     width: 100vw;
@@ -85,7 +83,7 @@ footer{
 .container-logo{
     background-color: #202020;
     width: 100%;
-    height: 10vh;
+    
     border: #393939 solid;
     border-left: none;
     border-right: none;
@@ -165,6 +163,10 @@ nav a:hover{
     main{
         border: none;
         height: 76vh;
+        background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
     }
     footer{
         height: 10vh;
@@ -173,14 +175,17 @@ nav a:hover{
   
   @media screen and (min-width:600px){
     nav{
-        height: 10vh;
+        
      }
      main{
         border: #393939 solid;
          height: 60vh;
+         background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
+         background-repeat: no-repeat;
+         background-size: 100%;
      }
      footer{
-         height: 20vh;
+         
      } 
   }
   

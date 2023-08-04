@@ -7,15 +7,41 @@ main{
 h1{
     
     font-weight: 600;
-    color: #000;
+    color: #f4b0b0;
     text-shadow: 15px 15px 20px red;
 }
 .paragraph{
     background-color: rgba(147, 240, 240, 0.593);
+    border-radius: 5%;
     color: #000;
     width: 50%;
 }
 main p{
-    text-align: center
-;
+    text-align: center;
 }
+@media screen and (max-width:600px){
+    nav{
+       height: 4vh;
+    }
+    main{
+        border: none;
+        height: 76vh;
+    }
+    footer{
+        height: 10vh;
+    }
+  }
+  
+  @media screen and (min-width:600px){
+    nav{
+        height: 10vh;
+     }
+     main{
+        border: #393939 solid;
+         height: 60vh;
+     }
+     footer{
+         height: 20vh;
+     } 
+  }
+  
