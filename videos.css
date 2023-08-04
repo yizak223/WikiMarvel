@@ -31,7 +31,7 @@ section{
     flex-wrap: wrap;
     row-gap: 5vh;
 }
-.container-3-videos{
+.container-videos{
     display: flex;
     flex-direction: row;
 }
@@ -41,6 +41,34 @@ section{
     width: 33vw;
     height: 22vh;
 }
-footer{
-   
+
+@media screen and (max-width:600px) {
+body{
+    grid-template-rows: 20vh 130vh 130vh 120vh 20vh;
 }
+main{
+    height: 380vh;
+    background-size: 100% 380vh;
+}
+section{
+    flex-direction: column;
+}
+.container-videos{
+    flex-direction: column;
+}
+}
+@media screen and (min-width:600px) {
+    body{
+        grid-template-rows: 20vh 70vh 70vh 70vh 20vh;
+    }
+    main{
+        height: 210vh;
+        background-size: 100% 210vh;
+    }
+    section{
+        flex-direction: row;
+    }
+    .container-videos{
+        flex-direction: row;
+    }
+    }
