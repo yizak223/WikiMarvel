@@ -96,6 +96,18 @@ footer{
     animation: comefrom 1.5s forwards;
    height: 9vh;
    width: 100%;
+}
+@keyframes comefrom {
+    0%{
+        transform: translate(-53vw);
+    }
+   70%{
+        transform: translate(3vw);
+        width: 200%;
+    }
+    100%{
+        transform: translate(0);
+    }
 
 }
 .search input{
@@ -116,19 +128,7 @@ footer{
      color: rgb(236, 158, 158);
     text-shadow: 15px 15px 15px red;
 }
-@keyframes comefrom {
-    0%{
-        transform: translate(-53vw);
-    }
-   70%{
-        transform: translate(3vw);
-        width: 200%;
-    }
-    100%{
-        transform: translate(0);
-    }
 
-}
 nav{
     background-color: #202020;
     width: 100vw;

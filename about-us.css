@@ -1,48 +1,27 @@
+body{
+    grid-template-rows: 20vh 35vh 35vh 45vh 20vh;
+}
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 10vh;
+    height: 115vh;
+    background-size: 100% 115vh;
 }
 h1{
     font-size: 66px;
-    margin-top: 5vh;
     font-weight: 600;
-    color: #f4b0b0;
+    color: #945c5c;
     text-shadow: 15px 15px 20px red;
 }
 .paragraph{
+    padding: 2vh;
     background-color: rgba(147, 240, 240, 0.593);
-    border-radius: 5%;
     color: #000;
     width: 50%;
 }
 main p{
-    text-align: center;
+   
 }
-@media screen and (max-width:600px){
-    nav{
-       height: 4vh;
-    }
-    main{
-        border: none;
-        height: 76vh;
-    }
-    footer{
-        height: 10vh;
-    }
-  }
-  
-  @media screen and (min-width:600px){
-    nav{
-        height: 10vh;
-     }
-     main{
-        border: #393939 solid;
-         height: 60vh;
-     }
-     footer{
-         height: 20vh;
-     } 
-  }
+
   

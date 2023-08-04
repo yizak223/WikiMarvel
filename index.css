@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    height: 30vh;
+    width: 20vw;
+    transform: translate(65vh);
+    animation: gifAppear 2s 6s forwards;
+}
+@keyframes gifAppear {
+    from{
+        transform: translate(65vh);
+    }
+    to{
+        transform: translate(0);
+    }
+    
+}
+.titles{
+    color: #21344600;
+    text-align: center;
+    align-self: center;
+    
+}
+.title1{
+    animation: textAppear 2s forwards;
+}
+.title2{
+    animation: textAppear 2s 2s forwards;
+}
+@keyframes textAppear {
+    from{
+        color: #213446;
+    }
+    to{
+        color: #f4aaaa;
+    }
+    
+}
+.gif-marvel{
+    align-self: flex-end;
+    
+}
+.marvel h1{
+    align-self: center;
+    color: #213446;
+    animation: marvelAppear 2s 4s forwards;
+}
+@keyframes marvelAppear {
+    from{
+        color: #213446;
+    }
+    to{
+        font-size: 66px;
+        font-weight: 600;
+        color: #945c5c;
+        text-shadow: 15px 15px 20px red;
+    }
+    
+}
