@@ -158,7 +158,8 @@ nav a:hover{
 
 @media screen and (max-width:600px){
     nav{
-        gap:6vh;
+        gap:2vh;
+        background-color:brown ;
  
     }
     
