@@ -136,8 +136,7 @@ nav{
     border-left: none;
     border-right: none;
     display: flex;
-    gap: 10vh;
-    justify-content: center;
+    justify-content: space-evenly;
     row-gap: 10vh;
     align-items: center;
 }
@@ -158,8 +157,8 @@ nav a:hover{
 
 @media screen and (max-width:600px){
     nav{
-        gap:2vh;
-        background-color:brown ;
+       
+       
  
     }
     
@@ -167,7 +166,7 @@ nav a:hover{
   
   @media screen and (min-width:600px){
   nav{
-        gap:10vh;
+        
     }
   }
   
