@@ -1,7 +1,4 @@
 main{
-    background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

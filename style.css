@@ -28,6 +28,9 @@ main{
     width: 100vw;
     grid-area: main;
     /* border: #393939 solid; */
+    background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 footer{
     display: grid;
