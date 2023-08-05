@@ -5,15 +5,15 @@ main{
 img{
     height: 30vh;
     width: 20vw;
-    transform: translate(65vh);
+    transform: scale(0);
     animation: gifAppear 2s 6s forwards;
 }
 @keyframes gifAppear {
     from{
-        transform: translate(65vh);
+        transform: scale(0);
     }
     to{
-        transform: translate(0);
+        transform: scale(1);
     }
     
 }

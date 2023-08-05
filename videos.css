@@ -12,6 +12,9 @@ main{
     background-size: 100% 210vh;
     height: 210vh;
 }
+.the-main-title{
+    
+}
 h1{ 
     color: #f4aaaa;
     text-align: center;
@@ -59,11 +62,11 @@ section{
 }
 @media screen and (min-width:600px) {
     body{
-        grid-template-rows: 20vh 70vh 70vh 70vh 20vh;
+        grid-template-rows: 20vh 50vh 70vh 70vh 20vh;
     }
     main{
-        height: 210vh;
-        background-size: 100% 210vh;
+        height: 190vh;
+        background-size: 100% 190vh;
     }
     section{
         flex-direction: row;
@@ -71,4 +74,4 @@ section{
     .container-videos{
         flex-direction: row;
     }
-    }
+}

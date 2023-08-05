@@ -1,0 +1,96 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+h1{ 
+    color: #f4aaaa;
+    text-align: center;
+}
+.title-movies{
+    background-color: rgba(255, 0, 0, 0.557);
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+section{
+    padding-top: 3vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5vh;
+}
+.container-movies{
+    display: flex;
+    flex-direction: row;
+}  
+.movie{
+    display: flex;
+    justify-content: space-around;
+    width: 33vw;
+    height: 40vh;
+}
+.movie-card{
+    border: solid;
+    background-color: rgba(166, 255, 0, 0.581);
+    display: flex;
+    flex-direction: column;
+}
+.year_like{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.likes{
+    display: flex;
+    gap: 1vh;
+}
+.movie-card img{
+    width: 18vw;
+    height: 35vh;
+}
+.Deadpool .movie-card{
+    background-color: rgba(199, 233, 60, 0.633);
+}
+.Avengers .movie-card{
+    background-color: #4a72eda7;
+}
+.CaptainAmerica .movie-card{
+    background-color: rgba(0, 0, 0, 0.666);
+}
+.IronMan .movie-card{
+    background-color: #561616bb;
+}
+@media screen and (max-width:600px) {
+    body{
+        grid-template-rows: 20vh 130vh 130vh 120vh 20vh;
+    }
+    main{
+        height: 380vh;
+        background-size: 100% 380vh;
+    }
+    section{
+        flex-direction: column;
+    }
+    .container-movies{
+        flex-direction: column;
+    }
+    }
+    @media screen and (min-width:600px) {
+        body{
+            grid-template-rows: 20vh 70vh 80vh 70vh 20vh;
+        }
+        main{
+            height: 220vh;
+            background-size: 100% 220vh;
+        }
+        section{
+            flex-direction: row;
+        }
+        .container-movies{
+            flex-direction: row;
+        }
+    }

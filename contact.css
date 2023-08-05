@@ -10,18 +10,53 @@ h1{
     text-align: center;
 }
 section{
+    width: 15vw;
+    background-color: #393939aa;
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
-
+    align-self: center;
+}
+form{
+    
+    text-align: center;
 }
 .container-img-and-details{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+.container-img{
+    align-self: center;
+    animation: circle 4s 3s 5;
+    transform: rotateZ(0deg);
+}
+@keyframes circle {
+    0%{
+    transform: rotateX(0deg);
+    }
+    50%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+
+    }
+    
+}
 img{
-    width: 50vw;
-    height: 60vh;
+    width: 5vw;
+    height: 10vh;
+    animation: bigger 3s 1 forwards;
+}
+@keyframes bigger {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(5);
+    }
+    
 }
 input, textarea{
     background-color: #202020;
@@ -29,3 +64,7 @@ input, textarea{
 label{
     color: #ffffff;
 }
+.required::after { 
+    content: " *";
+    color: #dc1b1b;
+    }
