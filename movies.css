@@ -35,7 +35,6 @@ section{
 }
 .movie-card{
     border: solid;
-    background-color: rgba(166, 255, 0, 0.581);
     display: flex;
     flex-direction: column;
 }
@@ -81,11 +80,11 @@ section{
     }
     @media screen and (min-width:600px) {
         body{
-            grid-template-rows: 20vh 70vh 80vh 70vh 20vh;
+            grid-template-rows: 20vh 80vh 90vh 70vh 20vh;
         }
         main{
-            height: 220vh;
-            background-size: 100% 220vh;
+            height: 240vh;
+            background-size: 100% 240vh;
         }
         section{
             flex-direction: row;

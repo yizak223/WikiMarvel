@@ -49,15 +49,7 @@ img{
     height: 10vh;
     animation: bigger 3s 1 forwards;
 }
-@keyframes bigger {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(5);
-    }
-    
-}
+
 input, textarea{
     background-color: #202020;
 }
@@ -67,4 +59,26 @@ label{
 .required::after { 
     content: " *";
     color: #dc1b1b;
+}
+@media screen and (max-width:600px) {
+    @keyframes bigger {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(3);
+        }
+        
     }
+}
+    @media screen and (min-width:600px) {
+        @keyframes bigger {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(5);
+            }
+            
+        }
+}

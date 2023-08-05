@@ -12,9 +12,7 @@ main{
     background-size: 100% 210vh;
     height: 210vh;
 }
-.the-main-title{
-    
-}
+
 h1{ 
     color: #f4aaaa;
     text-align: center;
@@ -42,7 +40,18 @@ section{
     display: flex;
     justify-content: space-around;
     width: 33vw;
-    height: 22vh;
+    height: 35vh;
+}
+.trailer-card{
+    background-color: rgba(199, 233, 60, 0.633);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+.trailer-card a{
+    height: 7vh;
+    align-self: center;
+    color: #ff0000;
 }
 
 @media screen and (max-width:600px) {
@@ -62,11 +71,11 @@ section{
 }
 @media screen and (min-width:600px) {
     body{
-        grid-template-rows: 20vh 50vh 70vh 70vh 20vh;
+        grid-template-rows: 20vh 60vh 70vh 70vh 20vh;
     }
     main{
-        height: 190vh;
-        background-size: 100% 190vh;
+        height: 200vh;
+        background-size: 100% 200vh;
     }
     section{
         flex-direction: row;
