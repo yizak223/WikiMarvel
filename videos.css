@@ -1,7 +1,3 @@
-nav{
-    position: sticky;
-    top: 0;
-}
 body{
     grid-template-rows: 20vh 70vh 70vh 70vh 20vh;
 }

@@ -22,6 +22,8 @@ header{
     grid-area: header;
     display: grid;
     grid-template-rows: 50% 50%;
+    position: sticky;
+    top: 0;
 }
 main{
     width: 100vw;
