@@ -61,11 +61,11 @@ img{
 }
 @media screen and (max-width:600px) {
     body{
-        grid-template-rows: 20vh 20vh 20vh 30vh 20vh;
+        grid-template-rows: 10vh 20vh 10vh 10vh 10vh;
     }
     main{
-         height: 70vh;
-        background-size: 100% 70vh;
+         height: 40vh;
+        background-size: 100% 50vh;
     }
 }
     @media screen and (min-width:600px) {
@@ -74,6 +74,6 @@ img{
     }
     main{
          height: 60vh;
-    background-size: 100% 60vh;
+         background-size: 100% 60vh;
     }
 }

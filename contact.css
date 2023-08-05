@@ -1,6 +1,4 @@
-body{
-    grid-template-rows: 20vh 20vh 20vh 30vh 20vh;
-}
+
 main{
     height: 70vh;
     background-size: 100% 70vh;
@@ -61,6 +59,9 @@ label{
     color: #dc1b1b;
 }
 @media screen and (max-width:600px) {
+    body{
+        grid-template-rows: 10vh 20vh 10vh 10vh 10vh;
+    }
     @keyframes bigger {
         from{
             transform: scale(1);
@@ -72,6 +73,9 @@ label{
     }
 }
     @media screen and (min-width:600px) {
+        body{
+            grid-template-rows: 20vh 20vh 20vh 30vh 20vh;
+        }
         @keyframes bigger {
             from{
                 transform: scale(1);

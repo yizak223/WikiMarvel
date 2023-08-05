@@ -52,7 +52,7 @@ section{
 
 @media screen and (max-width:600px) {
 body{
-    grid-template-rows: 20vh 130vh 130vh 120vh 20vh;
+    grid-template-rows: 10vh 130vh 130vh 120vh 10vh;
 }
 main{
     height: 380vh;
@@ -67,11 +67,11 @@ section{
 }
 @media screen and (min-width:600px) {
     body{
-        grid-template-rows: 20vh 60vh 70vh 70vh 20vh;
+        grid-template-rows: 20vh 80vh 100vh 100vh 20vh;
     }
     main{
-        height: 200vh;
-        background-size: 100% 200vh;
+        height: 280vh;
+        background-size: 100% 280vh;
     }
     section{
         flex-direction: row;
