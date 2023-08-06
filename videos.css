@@ -1,12 +1,9 @@
-body{
-    grid-template-rows: 20vh 70vh 70vh 70vh 20vh;
-}
+
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-size: 100% 210vh;
-    height: 210vh;
+
 }
 
 h1{ 
