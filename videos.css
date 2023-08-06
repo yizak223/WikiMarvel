@@ -39,12 +39,28 @@ section{
     height: 35vh;
 }
 .trailer-card{
-    background-color: rgba(199, 233, 60, 0.633);
     display: flex;
     flex-direction: column;
     row-gap: 2vh;
     padding: 2vh;
     border-radius: 5%;
+}
+.avengers .trailer-card{
+     background-color: rgba(60, 112, 233, 0.633);
+}
+.deadpool .trailer-card{
+    background-color: rgba(199, 233, 60, 0.633);
+}
+.cptAmerica .trailer-card{
+    background-color: rgba(38, 206, 32, 0.666);
+    
+}
+.Ironman .trailer-card{
+    background-color: rgba(231, 59, 32, 0.633);
+    
+}
+.spiderman .trailer-card{
+    background-color: rgba(72, 71, 71, 0.633);
 }
 .trailer-card p{
     background-color: #ff0000;
@@ -52,8 +68,11 @@ section{
     border-radius: 45%;
     align-self: center;
     color: #ffffff;
+    box-shadow: 5px 5px 10px 2px #000;
 }
-
+iframe{
+    box-shadow: 5px 5px 10px 2px #000;
+}
 @media screen and (max-width:600px) {
 body{
     grid-template-rows: 10vh 130vh 130vh 120vh 10vh;

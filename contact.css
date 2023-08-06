@@ -26,8 +26,11 @@ form{
 }
 .container-img{
     align-self: center;
-    animation: circle 4s 3s 5;
-    transform: rotateZ(0deg);
+    animation: circle 4s 3s 2;
+    transform: rotateX(0deg);
+}
+.container-img img:hover{
+    filter: invert(100%);
 }
 @keyframes circle {
     0%{

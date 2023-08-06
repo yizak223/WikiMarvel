@@ -35,14 +35,20 @@ section{
     height: 40vh;
 }
 .movie-card{
-    border: solid;
+    border-radius: 5%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    padding: 2vh;
 }
 .year_like{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    justify-self: flex-end;
+}
+.year_like p{
+    margin: 0;
 }
 .likes{
     display: flex;
@@ -50,7 +56,11 @@ section{
 }
 .movie-card img{
     width: 18vw;
-    height: 35vh;
+    height: 30vh;
+    box-shadow: 5px 5px 10px 2px #000;
+}
+.movie-card img:hover{
+    filter:opacity(50%);
 }
 .Deadpool .movie-card{
     background-color: rgba(199, 233, 60, 0.633);
@@ -59,7 +69,7 @@ section{
     background-color: #4a72eda7;
 }
 .CaptainAmerica .movie-card{
-    background-color: rgba(0, 0, 0, 0.666);
+    background-color: rgba(38, 206, 32, 0.666);
 }
 .IronMan .movie-card{
     background-color: #561616bb;
