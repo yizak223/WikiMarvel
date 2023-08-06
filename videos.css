@@ -43,11 +43,15 @@ section{
     display: flex;
     flex-direction: column;
     row-gap: 2vh;
+    padding: 2vh;
+    border-radius: 5%;
 }
-.trailer-card a{
-    height: 7vh;
+.trailer-card p{
+    background-color: #ff0000;
+    padding: 2vh;
+    border-radius: 45%;
     align-self: center;
-    color: #ff0000;
+    color: #ffffff;
 }
 
 @media screen and (max-width:600px) {
