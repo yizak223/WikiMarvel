@@ -29,6 +29,7 @@ header{
 main{
     width: 100vw;
     grid-area: main;  
+    background-image: url(GFX-Background.jpg);
 }
 footer{
     display: grid;
@@ -164,7 +165,6 @@ nav a:hover{
     main{
         
         height: 76vh;
-        background-image: url(GFX-Background.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -175,9 +175,7 @@ nav a:hover{
   @media screen and (min-width:600px){
  
      main{
-        
          height: 60vh;
-         background-image: url(GFX-Background.jpg);
          background-repeat: no-repeat;
          background-size: 100%;
      }
