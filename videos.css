@@ -39,7 +39,7 @@ section{
     display: flex;
     flex-direction: column;
     row-gap: 2vh;
-    padding: 2vh;
+    padding: 3vh 4vh 10vh 4vh;
     border-radius: 5%;
 }
 .avengers .trailer-card{
@@ -60,12 +60,18 @@ section{
     background-color: rgba(72, 71, 71, 0.633);
 }
 .trailer-card p{
+    border: solid rgb(57, 57, 57);
     background-color: #ff0000;
-    padding: 2vh;
-    border-radius: 45%;
+    transition: 0.5s;
+    padding: 1.5vh;
+    border-radius: 3px;
     align-self: center;
     color: #ffffff;
-    box-shadow: 5px 5px 10px 2px #000;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+.trailer-card p:hover{
+    color: #ff0000;
+    background-color: #ffffff;
 }
 iframe{
     box-shadow: 5px 5px 10px 2px #000;

@@ -24,6 +24,7 @@ header{
     grid-template-rows: 50% 50%;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 main{
     width: 100vw;
@@ -147,7 +148,7 @@ nav a{
     font-size: 2vw;
 }
 nav a:hover{
-    color: rgb(236, 158, 158);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-shadow: 15px 15px 15px red;
 }
@@ -161,9 +162,9 @@ nav a:hover{
        height: 4vh;
     }
     main{
-        border: none;
+        
         height: 76vh;
-        background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
+        background-image: url(GFX-Background.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -174,9 +175,9 @@ nav a:hover{
   @media screen and (min-width:600px){
  
      main{
-        border: #393939 solid;
+        
          height: 60vh;
-         background-image: url(https://www.yo-yoo.co.il/rekaim/images/uploads/6ed060.jpg);
+         background-image: url(GFX-Background.jpg);
          background-repeat: no-repeat;
          background-size: 100%;
      }
