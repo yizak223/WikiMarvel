@@ -54,6 +54,7 @@ section{
 }
 .imdbContainer{
     position: absolute;
+    z-index: -10;
 }
 #imdb{
    display: none;
@@ -141,25 +142,21 @@ section{
     display: flex;
     height: 5vh;
     width: 10vw;
-    opacity: 100;
     }
     #Pimdb{
     display: flex;
     padding: 1vh;
     border-radius: 3px;
     background-color: #000000;
-    border-radius: 10%; 
-    opacity: 100;
+    border-radius: 10%;
 }
  
 
 .movie-card img:hover+.imdbContainer{
-    opacity: 100;
+    z-index: 100;
 }  
-.imdbContainer:hover{
-    opacity: 100;
-}
-}
+
+.imdbContainer:hover.movie-card img}
     @media screen and (min-width:600px) {
         body{
             grid-template-rows: 20vh 80vh 90vh 80vh 20vh;
