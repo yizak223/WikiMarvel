@@ -53,7 +53,10 @@ section{
     padding: 4vh 3vh 2vh 3vh ;
 }
 #imdb{
-  display: none;
+   display: none;
+}
+#Pimdb{
+    display: none;
 }
 .year_like{
     display: flex;
@@ -126,6 +129,27 @@ section{
     .likes{
         display: none;
     }
+    #imdb{
+    display: block;
+    height: 5vh;
+    width: 10vw;
+    position: absolute;
+    opacity: 100;
+}
+#Pimdb{
+    display: block;
+    position: absolute;
+    transition: 0.5s;
+    padding: 1.5vh;
+    border-radius: 3px;
+    background-color: #000000;
+    border-radius: 10%; 
+}
+ 
+
+.movie-card img:hover+#imdb{
+    opacity: 100;
+}  
 }
     @media screen and (min-width:600px) {
         body{
