@@ -43,6 +43,7 @@ section{
     height: 40vh;
 }
 .movie-card{
+    position: relative;
     border-radius: 5%;
     display: flex;
     justify-content: space-around;
@@ -50,6 +51,12 @@ section{
     flex-direction: column;
     height: 43vh;
     padding: 4vh 3vh 2vh 3vh ;
+}
+#imdb{
+    height: 5vh;
+    width: 10vw;
+    
+    position: absolute;
 }
 .year_like{
     display: flex;
