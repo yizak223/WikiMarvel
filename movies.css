@@ -53,10 +53,7 @@ section{
     padding: 4vh 3vh 2vh 3vh ;
 }
 #imdb{
-    height: 5vh;
-    width: 10vw;
-    
-    position: absolute;
+  display: none;
 }
 .year_like{
     display: flex;
