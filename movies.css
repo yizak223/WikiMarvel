@@ -52,6 +52,9 @@ section{
     height: 43vh;
     padding: 4vh 3vh 2vh 3vh ;
 }
+.imdbContainer{
+    position: absolute;
+}
 #imdb{
    display: none;
 }
@@ -129,25 +132,28 @@ section{
     .likes{
         display: none;
     }
+.imdbContainer{
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}
     #imdb{
-    display: block;
+    display: flex;
     height: 5vh;
     width: 10vw;
-    position: absolute;
     opacity: 100;
-}
-#Pimdb{
-    display: block;
-    position: absolute;
-    transition: 0.5s;
-    padding: 1.5vh;
+    }
+    #Pimdb{
+    display: flex;
+    padding: 1vh;
     border-radius: 3px;
     background-color: #000000;
     border-radius: 10%; 
+    opacity: 100;
 }
  
 
-.movie-card img:hover+#imdb{
+.movie-card img:hover+.imdbContainer{
     opacity: 100;
 }  
 }
