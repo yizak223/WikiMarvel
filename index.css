@@ -61,11 +61,14 @@ img{
 }
 @media screen and (max-width:600px) {
     body{
-        grid-template-rows: 10vh 20vh 10vh 10vh 10vh;
+        grid-template-rows: 10vh 60vh 10vh 10vh 10vh;
     }
     main{
-         height: 40vh;
-        background-size: 100% 50vh;
+         height: 80vh;
+        background-size: 100% 80vh;
+    }
+    footer{
+        height: 30vh;
     }
 }
     @media screen and (min-width:600px) {

@@ -78,17 +78,27 @@ iframe{
 }
 @media screen and (max-width:600px) {
 body{
-    grid-template-rows: 10vh 130vh 130vh 120vh 10vh;
+    grid-template-rows: 10vh 180vh 180vh 200vh 10vh;
 }
 main{
-    height: 380vh;
-    background-size: 100% 380vh;
+    height: 560vh;
+    background-size: 100% 560vh;
+}
+footer{
+    height: 30vh;
 }
 section{
     flex-direction: column;
 }
 .container-videos{
     flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    justify-content: space-between;
+}
+.trailer-card{
+    padding-bottom: 0vh;
+
 }
 }
 @media screen and (min-width:600px) {
