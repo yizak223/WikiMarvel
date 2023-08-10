@@ -48,9 +48,13 @@ form{
 img{
     width: 5vw;
     height: 10vh;
-    animation: bigger 3s 1 forwards;
 }
+#MarvelGif{
 
+}
+#spiderManGif{
+    display: none;
+}
 input, textarea{
     background-color: #202020;
 }
@@ -68,14 +72,22 @@ label{
     main{
         height: 65vh;
     }
-    @keyframes bigger {
+    @keyframes move {
         from{
-            transform: scale(1);
+            transform: rotate(-90deg) translate(5vh,60vh);
         }
         to{
-            transform: scale(3);
+            transform: rotate(-90deg) translate(5vh, -5vh);
         }
         
+    }
+    #MarvelGif{
+        display: none;
+    }
+    #spiderManGif{
+        display: block;
+        transform: rotate(-90deg) translate(5vh,60vh);
+        animation: move 5s ;
     }
     section{
         width: 45vw;
