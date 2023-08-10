@@ -63,7 +63,10 @@ label{
 }
 @media screen and (max-width:600px) {
     body{
-        grid-template-rows: 10vh 20vh 10vh 10vh 10vh;
+        grid-template-rows: 10vh 20vh 35vh 10vh 10vh;
+    }
+    main{
+        height: 65vh;
     }
     @keyframes bigger {
         from{
@@ -75,7 +78,7 @@ label{
         
     }
     section{
-        width: 25vw;
+        width: 45vw;
     }
 
 }

@@ -35,11 +35,11 @@ main a{
 
 @media screen and (max-width:600px) {
     body{
-        grid-template-rows: 10vh 20vh 10vh 10vh 10vh;
+        grid-template-rows: 10vh 60vh 60vh 70vh 10vh;
     }
     main{
-        height: 40vh;
-        background-size: 100% 40vh;
+        height: 190vh;
+        background-size: 100% 190vh;
     }
 }
     @media screen and (min-width:600px) {
