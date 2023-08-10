@@ -67,9 +67,6 @@ img{
          height: 80vh;
         background-size: 100% 80vh;
     }
-    footer{
-        height: 30vh;
-    }
 }
     @media screen and (min-width:600px) {
    body{

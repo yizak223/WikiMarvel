@@ -84,9 +84,6 @@ main{
     height: 560vh;
     background-size: 100% 560vh;
 }
-footer{
-    height: 30vh;
-}
 section{
     flex-direction: column;
 }
@@ -95,6 +92,11 @@ section{
     align-items: center;
     height: 110vh;
     justify-content: space-between;
+}
+.container-videos-spiderman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .trailer-card{
     padding-bottom: 0vh;
