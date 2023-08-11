@@ -4,6 +4,6 @@ img{
 .marvel h1{
     text-align: center;
 }
-.main{
+main{
     flex-direction: column;
 }
