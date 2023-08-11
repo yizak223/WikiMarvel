@@ -111,82 +111,60 @@ section{
         justify-content: space-between;
         height: 130vh;
     }
-    .likes{
-        display: none;
+    .movie-card img:hover+.imdbContainer{
+        z-index: 100;
+    }  
+    .movie-card{
+        position: relative;
+        border-radius: 5%;
+        display: flex;
+        justify-content: space-around;
+        row-gap: 2vh;
+        flex-direction: column;
+        height: 43vh;
+        padding: 4vh 3vh 2vh 3vh ;
     }
-.imdbContainer{
-    display: flex;
-    flex-direction: row;
-    opacity: 0;
-}
-    #imdb{
-    display: flex;
-    height: 5vh;
-    width: 10vw;
+    .movie-card img{
+        width: 50vw;
+        height: 30vh;
+        box-shadow: 5px 5px 10px 2px #000;
     }
-    #Pimdb{
-    display: flex;
-    padding: 1vh;
-    border-radius: 3px;
-    background-color: #000000;
-    border-radius: 10%;
-}
- 
-
-.movie-card img:hover+.imdbContainer{
-    z-index: 100;
-}  
-.movie-card{
-    position: relative;
-    border-radius: 5%;
-    display: flex;
-    justify-content: space-around;
-    row-gap: 2vh;
-    flex-direction: column;
-    height: 43vh;
-    padding: 4vh 3vh 2vh 3vh ;
-}
-.movie-card img{
-    width: 18vw;
-    height: 30vh;
-    box-shadow: 5px 5px 10px 2px #000;
-}
 }
 
     @media screen and (min-width:600px) {
-        body{
+    body{
             grid-template-rows: 20vh 80vh 90vh 80vh 20vh;
         }
-        main{
+    main{
             height: 245vh;
             background-size: 100% 245vh;
-        }
-        section{
+    }
+    section{
             flex-direction: row;
-        }
-        .container-movies{
+    }
+    .container-movies{
             flex-direction: row;
-        }
-        .title-movies{
+    }
+    .title-movies{
             background-color: rgba(255, 0, 0, 0.557);
             width: 100vw;
             display: flex;
             text-align: center;
             justify-content: space-around;
-        }
-        .movie-card{
-    position: relative;
-    border-radius: 5%;
-    display: flex;
-    justify-content: space-around;
-    row-gap: 2vh;
-    flex-direction: column;
-    height: 43vh;
-    padding: 4vh 3vh 2vh 3vh ;
-}
-.movie-card img{
-    width: 18vw;
-    height: 30vh;
-    box-shadow: 5px 5px 10px 2px #000;
-}
+    }
+    .movie-card{
+        position: relative;
+        border-radius: 5%;
+        display: flex;
+        justify-content: space-around;
+        row-gap: 2vh;
+        flex-direction: column;
+        height: 43vh;
+        padding: 4vh 3vh 2vh 3vh ;
+    }
+    .movie-card img{
+        width: 18vw;
+        height: 30vh;
+        box-shadow: 5px 5px 10px 2px #000;
+    }
     }
