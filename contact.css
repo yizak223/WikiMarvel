@@ -32,26 +32,12 @@ form{
 .container-img img:hover{
     filter: invert(100%);
 }
-@keyframes circle {
-    0%{
-    transform: rotateX(0deg);
-    }
-    50%{
-        transform: rotateX(180deg);
-    }
-    100%{
-        transform: rotateX(0deg);
 
-    }
-    
-}
 img{
     width: 5vw;
     height: 10vh;
 }
-#MarvelGif{
 
-}
 #spiderManGif{
     display: none;
 }
@@ -107,6 +93,23 @@ label{
             }
             
         }
+        @keyframes circle {
+        0%{
+        transform: rotateX(0deg);
+        }
+        50%{
+            transform: rotateX(180deg);
+        }
+        100%{
+        transform: rotateX(0deg);
+
+        }
+    
+    }
+    #MarvelGif{
+
+        animation: bigger 3s forwards;
+    }
         section{
             width: 20vw;
         }
