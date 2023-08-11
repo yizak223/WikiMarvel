@@ -3,3 +3,8 @@
     flex-direction: column;
     background-color: none;
 }
+main{
+    background-image: url(images/GFX-Background.jpg);
+    background-size: 350vw;
+    background-repeat: repeat;
+}
