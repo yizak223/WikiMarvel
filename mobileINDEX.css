@@ -1,3 +1,9 @@
 img{
     display: none;
 }
+.marvel h1{
+    text-align: center;
+}
+.main{
+    flex-direction: column;
+}

@@ -44,12 +44,12 @@ img{
 }
 .marvel h1{
     align-self: center;
-    color: #213446;
+    color: #1f0305;
     animation: marvelAppear 2s 4s forwards;
 }
 @keyframes marvelAppear {
     from{
-        color: #213446;
+        color: #1f0305;
     }
     to{
         font-size: 66px;
@@ -73,7 +73,7 @@ img{
         grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
     }
     main{
-         height: 60vh;
-         background-size: 100% 60vh;
+        height: 60vh;
+        background-size: 100% 60vh;
     }
 }
