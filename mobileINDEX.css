@@ -11,3 +11,10 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+.firstSectionOfThePage{
+    flex-direction: column;
+    text-align: center;
+}
+.scrollImages{
+    width: 70vw;
+}

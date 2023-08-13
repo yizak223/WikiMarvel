@@ -39,28 +39,6 @@ main{
     animation: scroll 10s alternate-reverse infinite;
 }
 
-.titles{
-    color: #21344600;
-    text-align: center;
-    align-self: center;
-    
-}
-.title1{
-    animation: textAppear 2s forwards;
-}
-.title2{
-    animation: textAppear 2s 2s forwards;
-}
-@keyframes textAppear {
-    from{
-        color: #213446;
-    }
-    to{
-        color: #f4aaaa;
-    }
-    
-}
-
 h1{
     font-size: 40px;
     font-weight: 600;
