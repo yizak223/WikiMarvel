@@ -11,7 +11,8 @@ h1{
     text-align: center;
 }
 .title-trailer{
-    background-color: rgba(255, 0, 0, 0.557);
+    background-color: #331dac81;
+    color: #ff0000;
     width: 100%;
     display: flex;
     text-align: center;
@@ -76,13 +77,18 @@ section{
 iframe{
     box-shadow: 5px 5px 10px 2px #000;
 }
+.the-main-title{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
 @media screen and (max-width:600px) {
 body{
-    grid-template-rows: 10vh 180vh 180vh 200vh 10vh;
+    grid-template-rows: 10vh 180vh 185vh 180vh 10vh;
 }
 main{
-    height: 560vh;
-    background-size: 100% 560vh;
+    height: 545vh;
+    background-size: 100% 545vh;
 }
 section{
     flex-direction: column;
