@@ -4,16 +4,14 @@ main{
     flex-direction: column;
 
 }
-.title-of-the-page{
-    height: 10vh;
-}
 h1{ 
     color: #f4aaaa;
     text-align: center;
     margin: 0;
 }
 .title-movies{
-    background-color: rgba(255, 0, 0, 0.557);
+    background-color: #331dac81;
+    color: #ff0000;
     width: 100%;
     text-align: center;
 }
@@ -97,6 +95,9 @@ section{
     section{
         flex-direction: column;
     }
+    .title-of-the-page{
+        height: 5vh;
+    }
     .container-movies{
         flex-direction: column;
         align-items: center;
@@ -132,11 +133,13 @@ section{
     section{
             flex-direction: row;
     }
+    .title-of-the-page{
+        height: 10vh;
+    }
     .container-movies{
             flex-direction: row;
     }
     .title-movies{
-            background-color: rgba(255, 0, 0, 0.557);
             width: 100%;
             text-align: center;
     }
