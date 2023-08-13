@@ -108,6 +108,9 @@ section{
     padding-bottom: 0vh;
 
 }
+.title-trailer{
+    width: 100vw;
+}
 }
 @media screen and (min-width:600px) {
     body{
