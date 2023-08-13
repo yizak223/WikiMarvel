@@ -1,6 +1,4 @@
-.title-movies{
-    display: none;
-}
+
 body{
     grid-template-rows: 10vh 170vh 200vh 190vh 10vh;
 }
