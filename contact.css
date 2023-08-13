@@ -1,18 +1,14 @@
 
-main{
-    height: 70vh;
-    background-size: 100% 70vh;
-}
 h1{
     color: #f4aaaa;
     text-align: center;
 }
 section{
-   
     background-color: #393939aa;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-self: center;
 }
 form{
@@ -44,6 +40,9 @@ img{
 input, textarea{
     background-color: #202020;
 }
+.btn-primary{
+    width: fit-content;
+}
 label{
     color: #ffffff;
 }
@@ -53,10 +52,13 @@ label{
 }
 @media screen and (max-width:600px) {
     body{
-        grid-template-rows: 10vh 20vh 35vh 10vh 10vh;
+        grid-template-rows: 10vh 35vh 20vh 20vh 10vh;
     }
     main{
-        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        background-image: 100% 75vh;
     }
     @keyframes move {
         from{
@@ -73,16 +75,28 @@ label{
     #spiderManGif{
         display: block;
         transform: rotate(-90deg) translate(5vh,60vh);
-        animation: move 5s ;
+        animation: move 5s forwards ;
     }
     section{
         width: 45vw;
     }
+    input, textarea{
+        width: 40vw;
+    }
+ 
+ 
+    .container-img-and-details{
+        align-self: center;
+    }
 
 }
-    @media screen and (min-width:600px) {
+    @media screen and (min-width:601px) {
         body{
             grid-template-rows: 20vh 20vh 20vh 30vh 20vh;
+        }
+        main{
+        height: 70vh;
+        background-size: 100% 70vh;
         }
         @keyframes bigger {
             from{
@@ -111,6 +125,10 @@ label{
         animation: bigger 3s forwards;
     }
         section{
-            width: 20vw;
+            width: 30vw;
         }
+    
+    input, textarea{
+        width: 25vw;
+    }
 }

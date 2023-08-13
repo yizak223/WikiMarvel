@@ -63,12 +63,12 @@ h1{
     }
     .scrollImages{
     height: 60vh;
-    width: 50vw;
+    width: 90vw;
     }
 }
   
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:601px) {
    body{
         grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
     }

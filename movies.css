@@ -122,7 +122,7 @@ section{
     }
 }
 
-    @media screen and (min-width:600px) {
+    @media screen and (min-width:601px) {
     body{
             grid-template-rows: 20vh 80vh 90vh 80vh 20vh;
         }
