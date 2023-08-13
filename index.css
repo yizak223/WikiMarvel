@@ -7,11 +7,17 @@ main{
     0%{
         background-image: url(images/homePage1.jpg);
     }
-    50%{
+    25%{
         background-image: url(images/homePage2.jpg);
     }
-    100%{
+    50%{
         background-image: url(images/homePage3.jpg);
+    }
+    75%{
+        background-image: url(images/homePage4.jpeg);
+    }
+    100%{
+        background-image: url(images/homePage5.webp);
     }
 }
 .scrollImages{
@@ -20,7 +26,7 @@ main{
     background-image: url(images/homePage1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    animation: scroll 6s infinite;
+    animation: scroll 10s alternate-reverse infinite;
 }
 
 .titles{
