@@ -31,7 +31,7 @@ main{
     grid-area: main;  
     background-image: url(images/GFX-Background.jpg);
 }
-footer{
+#footerForFullScreen{
     display: grid;
     grid-template-columns: 33% 33% 33% ;
     grid-template-rows: 80% 20%;
@@ -168,9 +168,14 @@ nav a:hover{
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
-    footer{
-        height: 30vh;
+    #footerForFullScreen{
+        display: none;
     }
+      #footerForMobile{
+        display: block;
+        background-color: rgba(255, 0, 0, 0.575);
+        width: 100vw;
+     }
   }
   @media screen and (min-width:600px){
  
@@ -178,6 +183,9 @@ nav a:hover{
          height: 60vh;
          background-repeat: no-repeat;
          background-size: 100%;
+     }
+     #footerForMobile{
+        display: none;
      }
 
   }
