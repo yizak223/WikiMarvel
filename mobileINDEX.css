@@ -7,3 +7,21 @@ img{
 main{
     flex-direction: column;
 }
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+#footerForMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#footerForMobile p{
+    color: rgb(0, 0, 0);
+}
+a{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(136, 136, 136);
+}
