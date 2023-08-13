@@ -1,8 +1,18 @@
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.firstSectionOfThePage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
 @keyframes scroll {
     0%{
         background-image: url(images/homePage1.jpg);
@@ -51,25 +61,14 @@ main{
     
 }
 
-.marvel h1{
-    font-size: 66px;
+h1{
+    font-size: 40px;
     font-weight: 600;
     color: #945c5c;
     text-shadow: 15px 15px 20px red;
   
 }
-/* @keyframes marvelAppear {
-    from{
-        color: #1f0305;
-    }
-    to{
-        font-size: 66px;
-        font-weight: 600;
-        color: #945c5c;
-        text-shadow: 15px 15px 20px red;
-    }
-    
-} */
+
 @media screen and (max-width:600px) {
     body{
         grid-template-rows: 10vh 60vh 10vh 10vh 10vh;
