@@ -29,8 +29,12 @@ main{
     }
 }
 .scrollImages{
-    height: 60vh;
-    width: 50vw;
+    height: 50vh;
+    width: 40vw;
+    border: solid rgb(255, 58, 58);
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 2px #2600ff;
+    background-color: #877ce6;
     background-image: url(images/homePage1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -40,8 +44,8 @@ main{
 h1{
     font-size: 40px;
     font-weight: 600;
-    color: #945c5c;
-    text-shadow: 15px 15px 20px red;
+    color: #877ce6;
+    text-shadow: 15px 15px 20px #2600ff;
   
 }
 

@@ -31,7 +31,7 @@ main{
     grid-area: main;  
     background-image: url(images/GFX-Background.jpg);
 }
-#footerForFullScreen{
+footer{
     display: grid;
     grid-template-columns: 33% 33% 33% ;
     grid-template-rows: 80% 20%;
@@ -44,6 +44,7 @@ main{
     border-right: none;
     background-color: #202020;
 }
+
 .my-contact{
     display: flex;
     justify-content: center;
