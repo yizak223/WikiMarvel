@@ -1,14 +1,28 @@
 main{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
-img{
-    height: 30vh;
-    width: 20vw;
-    
-   
+@keyframes scroll {
+    0%{
+        background-image: url(images/homePage1.jpg);
+    }
+    50%{
+        background-image: url(images/homePage2.jpg);
+    }
+    100%{
+        background-image: url(images/homePage3.jpg);
+    }
 }
+.scrollImages{
+    height: 60vh;
+    width: 50vw;
+    background-image: url(images/homePage1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: scroll 6s infinite;
+}
+
 .titles{
     color: #21344600;
     text-align: center;
