@@ -1,13 +1,13 @@
 *{
     font-family: RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
     font-size: 2vmin;
+    
 }
 body{
     color: #ffffff;
     margin: 0;
-    overflow-x: hidden;
     background-color: rgb(0, 0, 0);
-    border: #393939 solid;
+   
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
@@ -27,7 +27,7 @@ header{
     z-index: 100;
 }
 main{
-    width: 100vw;
+    width: 100%;
     grid-area: main;  
     background-image: url(images/GFX-Background.jpg);
 }
@@ -37,7 +37,7 @@ main{
     grid-template-rows: 80% 20%;
     grid-template-areas: 'my-contact my-social-media my-project' 
     'rights rights rights';
-    width: 100vw;
+    width: 100%;
     grid-area: footer;
     border: #393939 solid;
     border-left: none;
@@ -134,7 +134,7 @@ nav{
     position: sticky;
     top: 0;
     background-color: #202020;
-    width: 100vw;
+    width: 100%;
     border: #393939 solid;
     border-left: none;
     border-right: none;
@@ -173,7 +173,7 @@ nav a:hover{
       #footerForMobile{
         display: block;
         background-color: rgba(255, 0, 0, 0.575);
-        width: 100vw;
+        width: 100%;
      }
   }
   @media screen and (min-width:600px){

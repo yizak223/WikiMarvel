@@ -147,7 +147,7 @@ section{
     }
     .title-movies{
             background-color: rgba(255, 0, 0, 0.557);
-            width: 100vw;
+            width: 100%;
             display: flex;
             text-align: center;
             justify-content: space-around;

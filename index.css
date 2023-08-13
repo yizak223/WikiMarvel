@@ -1,21 +1,13 @@
 main{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 img{
     height: 30vh;
     width: 20vw;
-    transform: scale(0);
-    animation: gifAppear 2s 6s forwards;
-}
-@keyframes gifAppear {
-    from{
-        transform: scale(0);
-    }
-    to{
-        transform: scale(1);
-    }
     
+   
 }
 .titles{
     color: #21344600;
@@ -38,16 +30,15 @@ img{
     }
     
 }
-.gif-marvel{
-    align-self: flex-end;
-    
-}
+
 .marvel h1{
-    align-self: center;
-    color: #1f0305;
-    animation: marvelAppear 2s 4s forwards;
+    font-size: 66px;
+    font-weight: 600;
+    color: #945c5c;
+    text-shadow: 15px 15px 20px red;
+  
 }
-@keyframes marvelAppear {
+/* @keyframes marvelAppear {
     from{
         color: #1f0305;
     }
@@ -58,7 +49,7 @@ img{
         text-shadow: 15px 15px 20px red;
     }
     
-}
+} */
 @media screen and (max-width:600px) {
     body{
         grid-template-rows: 10vh 60vh 10vh 10vh 10vh;
